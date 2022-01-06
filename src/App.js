@@ -36,7 +36,7 @@ const App = () => {
               element={<CharDetz results={results} />}
             />
 
-            <Route path="/simpsons/add" element={<AddChar />} />
+            <Route path="/add" element={<AddChar />} />
           </Routes>
         </Container>
       </main>
