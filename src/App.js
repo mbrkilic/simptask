@@ -30,14 +30,13 @@ const App = () => {
         <Container>
           <Routes>
             <Route path="/" element={<Chars />} />
-            <Route path="/simpsons" element={<Chars />} />
+
             <Route
               path="/simpsons/:id"
               element={<CharDetz results={results} />}
             />
 
             <Route path="/simpsons/add" element={<AddChar />} />
-            <Route path="/add" element={<AddChar />} />
           </Routes>
         </Container>
       </main>
